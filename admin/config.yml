@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: ""
+public_folder: ""
+
+collections:
+  - name: "site"
+    label: "Paramètres du Site"
+    files:
+      - file: "index.html"
+        label: "Page d'Accueil"
+        name: "accueil"
+        fields:
+          - {label: "Titre du site", name: "title", widget: "string"}
+          
