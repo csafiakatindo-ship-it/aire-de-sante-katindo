@@ -183,4 +183,15 @@
     </footer>
 
 </body>
-</html>
+</html>details.card {
+    cursor: pointer;
+}
+details.card summary {
+    font-weight: bold;
+    outline: none;
+}
+details.card[open] {
+    background-color: #ffffff;
+    border-top: 4px solid #28a745;
+}
+
