@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aire de Santé Katindo</title>
-    <!-- Lien vers le fichier de design séparé -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +14,7 @@
             <img src="https://via.placeholder.com/60x60?text=LOGO" alt="Logo Katindo">
             <div class="logo-text">
                 <h1>Aire de Santé Katindo</h1>
-                <p>République Démocratique du Congo</p>
+                <p>République Démocratique du Congo[span_0](start_span)[span_0](end_span)</p>
             </div>
         </div>
     </header>
@@ -23,151 +22,154 @@
     <!-- BANNIÈRE D'ACCUEIL -->
     <section class="hero">
         <h2>Portail Officiel d'Information Publique</h2>
-        <p>Services de santé de proximité, prévention et promotion de la santé communautaire.</p>
+        <p>Services de santé de proximité, prévention et promotion de la santé[span_1](start_span)[span_1](end_span).</p>
     </section>
 
-    <!-- CONTENU PRINCIPAL : LES 17 DOMAINES -->
+    <!-- CONTENU PRINCIPAL : LES 17 DOMAINES INTERACTIFS -->
     <div class="container">
         <h2 style="text-align: center; color: var(--primary-color);">Nos Domaines d'Activités</h2>
+        <p style="text-align: center; font-size: 0.85rem; color: #666; margin-bottom: 20px;">💡 Cliquez sur un domaine pour ouvrir et voir les détails à l'intérieur.</p>
         
         <div class="grid">
-            <div class="card">
-                <h3>1. Soins Médicaux & Curatifs</h3>
+            
+            <details class="card">
+                <summary><h3>1. Soins Médicaux & Curatifs</h3></summary>
                 <ul>
-                    <li>Consultations et examen clinique[span_0](start_span)[span_0](end_span).</li>
-                    <li>Diagnostic & traitement des maladies courantes[span_1](start_span)[span_1](end_span).</li>
-                    <li>Soins des plaies et premiers secours[span_2](start_span)[span_2](end_span).</li>
+                    <li>Consultations et examen clinique[span_2](start_span)[span_2](end_span).</li>
+                    <li>Diagnostic & traitement des maladies courantes (fièvre, paludisme)[span_3](start_span)[span_3](end_span).</li>
+                    <li>Soins des plaies et premiers secours[span_4](start_span)[span_4](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>2. Santé Maternelle</h3>
+            <details class="card">
+                <summary><h3>2. Santé Maternelle</h3></summary>
                 <ul>
-                    <li>Consultations prénatales et suivi de grossesse[span_3](start_span)[span_3](end_span).</li>
-                    <li>Accouchements et soins postnatals[span_4](start_span)[span_4](end_span).</li>
-                    <li>Planification familiale[span_5](start_span)[span_5](end_span).</li>
+                    <li>Consultations prénatales et suivi de grossesse[span_5](start_span)[span_5](end_span).</li>
+                    <li>Accouchements et soins postnatals[span_6](start_span)[span_6](end_span).</li>
+                    <li>Planification familiale[span_7](start_span)[span_7](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>3. Santé de l'Enfant</h3>
+            <details class="card">
+                <summary><h3>3. Santé de l'Enfant</h3></summary>
                 <ul>
-                    <li>Suivi de la croissance et dépistage malnutrition[span_6](start_span)[span_6](end_span).</li>
-                    <li>Supplémentation en vitamine A et déparasitage[span_7](start_span)[span_7](end_span).</li>
+                    <li>Suivi de la croissance et dépistage malnutrition[span_8](start_span)[span_8](end_span).</li>
+                    <li>Supplémentation en vitamine A et déparasitage[span_9](start_span)[span_9](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>4. Vaccination</h3>
+            <details class="card">
+                <summary><h3>4. Vaccination</h3></summary>
                 <ul>
-                    <li>Séances fixes et avancées de vaccination[span_8](start_span)[span_8](end_span).</li>
-                    <li>Rattrapage vaccinal et chaîne du froid[span_9](start_span)[span_9](end_span).</li>
+                    <li>Séances fixes et avancées de vaccination[span_10](start_span)[span_10](end_span).</li>
+                    <li>Rattrapage vaccinal et chaîne du froid[span_11](start_span)[span_11](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>5. Prévention des Maladies</h3>
+            <details class="card">
+                <summary><h3>5. Prévention des Maladies</h3></summary>
                 <ul>
-                    <li>Prise en charge du paludisme[span_10](start_span)[span_10](end_span).</li>
-                    <li>Dépistage & orientation Tuberculose, VIH/IST[span_11](start_span)[span_11](end_span).</li>
+                    <li>Prise en charge du paludisme[span_12](start_span)[span_12](end_span).</li>
+                    <li>Dépistage & orientation Tuberculose, VIH/IST[span_13](start_span)[span_13](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>6. Nutrition</h3>
+            <details class="card">
+                <summary><h3>6. Nutrition</h3></summary>
                 <ul>
-                    <li>Dépistage malnutrition (périmètre brachial)[span_12](start_span)[span_12](end_span).</li>
-                    <li>Conseils nutritionnels et allaitement exclusif[span_13](start_span)[span_13](end_span).</li>
+                    <li>Dépistage malnutrition (périmètre brachial)[span_14](start_span)[span_14](end_span).</li>
+                    <li>Conseils nutritionnels et allaitement exclusif[span_15](start_span)[span_15](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>7. Hygiène & Assainissement</h3>
+            <details class="card">
+                <summary><h3>7. Hygiène & Assainissement</h3></summary>
                 <ul>
-                    <li>Promotion du lavage des mains et eau potable[span_14](start_span)[span_14](end_span).</li>
-                    <li>Gestion des déchets médicaux et ménagers[span_15](start_span)[span_15](end_span).</li>
+                    <li>Promotion du lavage des mains et eau potable[span_16](start_span)[span_16](end_span).</li>
+                    <li>Gestion des déchets médicaux et ménagers[span_17](start_span)[span_17](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>8. Sensibilisation & Éducation</h3>
+            <details class="card">
+                <summary><h3>8. Sensibilisation & Éducation</h3></summary>
                 <ul>
-                    <li>Causeries éducatives dans les quartiers[span_16](start_span)[span_16](end_span).</li>
-                    <li>Santé des adolescents et prévention des violences[span_17](start_span)[span_17](end_span)[span_18](start_span)[span_18](end_span).</li>
+                    <li>Causeries éducatives dans les quartiers[span_18](start_span)[span_18](end_span).</li>
+                    <li>Santé des adolescents et prévention des violences[span_19](start_span)[span_19](end_span)[span_20](start_span)[span_20](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>9. Activités Communautaires</h3>
+            <details class="card">
+                <summary><h3>9. Activités Communautaires</h3></summary>
                 <ul>
-                    <li>Visites à domicile par les relais communautaires[span_19](start_span)[span_19](end_span).</li>
-                    <li>Orientation et suivi des ménages vulnérables[span_20](start_span)[span_20](end_span).</li>
+                    <li>Visites à domicile par les relais communautaires[span_21](start_span)[span_21](end_span).</li>
+                    <li>Orientation et suivi des ménages vulnérables[span_22](start_span)[span_22](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>10. Santé Scolaire</h3>
+            <details class="card">
+                <summary><h3>10. Santé Scolaire</h3></summary>
                 <ul>
-                    <li>Sensibilisation dans les écoles[span_21](start_span)[span_21](end_span)[span_22](start_span)[span_22](end_span).</li>
-                    <li>Hygiène corporelle, bucco-dentaire et menstruelle[span_23](start_span)[span_23](end_span).</li>
+                    <li>Sensibilisation dans les écoles[span_23](start_span)[span_23](end_span)[span_24](start_span)[span_24](end_span).</li>
+                    <li>Hygiène corporelle, bucco-dentaire et menstruelle[span_25](start_span)[span_25](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>11. Surveillance Épidémiologique</h3>
+            <details class="card">
+                <summary><h3>11. Surveillance Épidémiologique</h3></summary>
                 <ul>
-                    <li>Notification rapide des cas suspects[span_24](start_span)[span_24](end_span).</li>
-                    <li>Rapports et riposte aux épidémies[span_25](start_span)[span_25](end_span).</li>
+                    <li>Notification rapide des cas suspects[span_26](start_span)[span_26](end_span).</li>
+                    <li>Rapports et riposte aux épidémies[span_27](start_span)[span_27](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>12. Pharmacie</h3>
+            <details class="card">
+                <summary><h3>12. Pharmacie</h3></summary>
                 <ul>
-                    <li>Gestion rationnelle des stocks de médicaments[span_26](start_span)[span_26](end_span).</li>
-                    <li>Conservation selon les normes de sécurité[span_27](start_span)[span_27](end_span).</li>
+                    <li>Gestion rationnelle des stocks de médicaments[span_28](start_span)[span_28](end_span).</li>
+                    <li>Conservation selon les normes de sécurité[span_29](start_span)[span_29](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>13. Laboratoire</h3>
+            <details class="card">
+                <summary><h3>13. Laboratoire</h3></summary>
                 <ul>
-                    <li>Tests rapides et prélèvements[span_28](start_span)[span_28](end_span).</li>
-                    <li>Communication confidentielle des résultats[span_29](start_span)[span_29](end_span).</li>
+                    <li>Tests rapides et prélèvements[span_30](start_span)[span_30](end_span).</li>
+                    <li>Communication confidentielle des résultats[span_31](start_span)[span_31](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>14. Réadaptation & Soutien</h3>
+            <details class="card">
+                <summary><h3>14. Réadaptation & Soutien</h3></summary>
                 <ul>
-                    <li>Soutien psychosocial de première ligne.</li>
-                    <li>Éducation pour les maladies chroniques.</li>
+                    <li>Soutien psychosocial de première ligne[span_32](start_span)[span_32](end_span).</li>
+                    <li>Éducation thérapeutique pour les maladies chroniques[span_33](start_span)[span_33](end_span)[span_34](start_span)[span_34](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>15. Administration & Gestion</h3>
+            <details class="card">
+                <summary><h3>15. Administration & Gestion</h3></summary>
                 <ul>
-                    <li>Planification et suivi des statistiques sanitaires.</li>
-                    <li>Gestion des équipes et équipements.</li>
+                    <li>Planification et suivi des statistiques sanitaires[span_35](start_span)[span_35](end_span).</li>
+                    <li>Gestion des équipes et équipements[span_36](start_span)[span_36](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>16. Participation Communautaire</h3>
+            <details class="card">
+                <summary><h3>16. Participation Communautaire</h3></summary>
                 <ul>
-                    <li>Réunions avec le Comité de Santé (CODESA).</li>
-                    <li>Recherche de solutions locales adaptées.</li>
+                    <li>Réunions avec le Comité de Santé (CODESA)[span_37](start_span)[span_37](end_span).</li>
+                    <li>Recherche de solutions locales adaptées[span_38](start_span)[span_38](end_span).</li>
                 </ul>
-            </div>
+            </details>
 
-            <div class="card">
-                <h3>17. Urgences & Humanitaire</h3>
+            <details class="card">
+                <summary><h3>17. Urgences & Humanitaire</h3></summary>
                 <ul>
-                    <li>Préparation aux urgences et épidémies.</li>
-                    <li>Coordination des références médicales.</li>
+                    <li>Préparation aux urgences et épidémies[span_39](start_span)[span_39](end_span).</li>
+                    <li>Coordination des références médicales[span_40](start_span)[span_40](end_span).</li>
                 </ul>
-            </div>
+            </details>
+
         </div>
 
         <!-- SECTION LOCALISATION -->
@@ -183,7 +185,8 @@
     </footer>
 
 </body>
-</html>details.card {
+</html>
+details.card {
     cursor: pointer;
 }
 details.card summary {
@@ -194,4 +197,3 @@ details.card[open] {
     background-color: #ffffff;
     border-top: 4px solid #28a745;
 }
-
